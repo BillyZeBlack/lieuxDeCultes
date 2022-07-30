@@ -18,6 +18,7 @@
 		9F2B2234289448270019058E /* CultPlaceControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2233289448270019058E /* CultPlaceControler.swift */; };
 		9F2B2236289448740019058E /* CommentControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2235289448740019058E /* CommentControler.swift */; };
 		9F2B223828950DC10019058E /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B223728950DC10019058E /* Bookmark.swift */; };
+		9F4BBF97289535E60022A6B6 /* BookmarkControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4BBF96289535E60022A6B6 /* BookmarkControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9F2B2233289448270019058E /* CultPlaceControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultPlaceControler.swift; sourceTree = "<group>"; };
 		9F2B2235289448740019058E /* CommentControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentControler.swift; sourceTree = "<group>"; };
 		9F2B223728950DC10019058E /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		9F4BBF96289535E60022A6B6 /* BookmarkControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9F2B2231289448030019058E /* GlabalControler.swift */,
 				9F2B2233289448270019058E /* CultPlaceControler.swift */,
 				9F2B2235289448740019058E /* CommentControler.swift */,
+				9F4BBF96289535E60022A6B6 /* BookmarkControler.swift */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				9F2B222C289444480019058E /* CultPlace.swift in Sources */,
 				9F2B222E289445D80019058E /* Service.swift in Sources */,
 				9F2B223828950DC10019058E /* Bookmark.swift in Sources */,
+				9F4BBF97289535E60022A6B6 /* BookmarkControler.swift in Sources */,
 				9F2B2232289448030019058E /* GlabalControler.swift in Sources */,
 				9F2B2236289448740019058E /* CommentControler.swift in Sources */,
 				9F2B2234289448270019058E /* CultPlaceControler.swift in Sources */,
