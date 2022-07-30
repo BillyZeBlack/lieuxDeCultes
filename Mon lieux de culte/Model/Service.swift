@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 enum Service {
-    case shoeStorage, ablution, lockerRoom
+    case shoeStorage, ablution, lockerRoom, other
 }

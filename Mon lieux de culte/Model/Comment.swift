@@ -7,11 +7,13 @@
 
 import Foundation
 
+// A stocker dans une BDD en ligne
 class Comment {
     
     var title: String
     var content: String
     var author: String
+//    var cultPlace: CultPlace
     
     init(title: String, content: String, author: String) {
         self.title = title

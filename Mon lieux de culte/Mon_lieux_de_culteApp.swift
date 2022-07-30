@@ -11,7 +11,8 @@ import SwiftUI
 struct Mon_lieux_de_culteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(comment: Comment(title: "", content: "", author: ""),
+                        cultPlace: CultPlace(name: "", adress: "", postCode: "", city: "", phoneNumber: "", service: nil, rating: nil, comment: nil, combined: false))
         }
     }
 }

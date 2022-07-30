@@ -14,6 +14,11 @@
 		9F2B222C289444480019058E /* CultPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B222B289444480019058E /* CultPlace.swift */; };
 		9F2B222E289445D80019058E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B222D289445D80019058E /* Service.swift */; };
 		9F2B22302894467E0019058E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B222F2894467E0019058E /* Comment.swift */; };
+		9F2B2232289448030019058E /* GlabalControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2231289448030019058E /* GlabalControler.swift */; };
+		9F2B2234289448270019058E /* CultPlaceControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2233289448270019058E /* CultPlaceControler.swift */; };
+		9F2B2236289448740019058E /* CommentControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2235289448740019058E /* CommentControler.swift */; };
+		9F2B223828950DC10019058E /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B223728950DC10019058E /* Bookmark.swift */; };
+		9F2B223A28950E740019058E /* BookmarkControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B223928950E740019058E /* BookmarkControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		9F2B222B289444480019058E /* CultPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultPlace.swift; sourceTree = "<group>"; };
 		9F2B222D289445D80019058E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9F2B222F2894467E0019058E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		9F2B2231289448030019058E /* GlabalControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlabalControler.swift; sourceTree = "<group>"; };
+		9F2B2233289448270019058E /* CultPlaceControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultPlaceControler.swift; sourceTree = "<group>"; };
+		9F2B2235289448740019058E /* CommentControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentControler.swift; sourceTree = "<group>"; };
+		9F2B223728950DC10019058E /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		9F2B223928950E740019058E /* BookmarkControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 				9F2B222B289444480019058E /* CultPlace.swift */,
 				9F2B222D289445D80019058E /* Service.swift */,
 				9F2B222F2894467E0019058E /* Comment.swift */,
+				9F2B223728950DC10019058E /* Bookmark.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,6 +107,10 @@
 		9F2B222A289442D60019058E /* Controler */ = {
 			isa = PBXGroup;
 			children = (
+				9F2B2231289448030019058E /* GlabalControler.swift */,
+				9F2B2233289448270019058E /* CultPlaceControler.swift */,
+				9F2B2235289448740019058E /* CommentControler.swift */,
+				9F2B223928950E740019058E /* BookmarkControler.swift */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -173,7 +188,12 @@
 				9F2B22302894467E0019058E /* Comment.swift in Sources */,
 				9F2B222C289444480019058E /* CultPlace.swift in Sources */,
 				9F2B222E289445D80019058E /* Service.swift in Sources */,
+				9F2B223828950DC10019058E /* Bookmark.swift in Sources */,
+				9F2B2232289448030019058E /* GlabalControler.swift in Sources */,
+				9F2B2236289448740019058E /* CommentControler.swift in Sources */,
+				9F2B2234289448270019058E /* CultPlaceControler.swift in Sources */,
 				9F2B221D289442320019058E /* ContentView.swift in Sources */,
+				9F2B223A28950E740019058E /* BookmarkControler.swift in Sources */,
 				9F2B221B289442320019058E /* Mon_lieux_de_culteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +328,8 @@
 				DEVELOPMENT_TEAM = JW5QDUDC7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"test\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"test\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,7 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -337,6 +359,8 @@
 				DEVELOPMENT_TEAM = JW5QDUDC7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"test\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"test\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,7 +375,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
