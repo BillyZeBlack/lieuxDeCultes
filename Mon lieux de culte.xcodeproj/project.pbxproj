@@ -18,7 +18,6 @@
 		9F2B2234289448270019058E /* CultPlaceControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2233289448270019058E /* CultPlaceControler.swift */; };
 		9F2B2236289448740019058E /* CommentControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B2235289448740019058E /* CommentControler.swift */; };
 		9F2B223828950DC10019058E /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B223728950DC10019058E /* Bookmark.swift */; };
-		9F2B223A28950E740019058E /* BookMarkControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2B223928950E740019058E /* BookMarkControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		9F2B2233289448270019058E /* CultPlaceControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultPlaceControler.swift; sourceTree = "<group>"; };
 		9F2B2235289448740019058E /* CommentControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentControler.swift; sourceTree = "<group>"; };
 		9F2B223728950DC10019058E /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
-		9F2B223928950E740019058E /* BookMarkControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 				9F2B2231289448030019058E /* GlabalControler.swift */,
 				9F2B2233289448270019058E /* CultPlaceControler.swift */,
 				9F2B2235289448740019058E /* CommentControler.swift */,
-				9F2B223928950E740019058E /* BookMarkControler.swift */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -193,7 +190,6 @@
 				9F2B2236289448740019058E /* CommentControler.swift in Sources */,
 				9F2B2234289448270019058E /* CultPlaceControler.swift in Sources */,
 				9F2B221D289442320019058E /* ContentView.swift in Sources */,
-				9F2B223A28950E740019058E /* BookMarkControler.swift in Sources */,
 				9F2B221B289442320019058E /* Mon_lieux_de_culteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

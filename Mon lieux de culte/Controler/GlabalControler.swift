@@ -10,5 +10,4 @@ import Foundation
 class GlobaleControler {
     @Published var cultPlaceControler = CultPlaceControler()
     @Published var commentControler = Commentcontroler()
-    @Published var bookmarkControler = BookmarkControler()
 }
